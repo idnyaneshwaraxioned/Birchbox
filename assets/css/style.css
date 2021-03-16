@@ -198,8 +198,60 @@ nav {width: 63%;}
 /*=================================
   main styling starts here
 =================================*/
+/* Banner start here */
+.banner { background-color: #F4F9FC; }
 
+.banner .wrapper { 
+  padding: 20px 0;
+  text-align: center;
+  color: #4b4749;
+}
 
+.banner .wrapper h2 {
+  margin: 12px 0; 
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.banner .wrapper p {
+  margin: 0 13%;
+  font-size: 20px;
+}
+
+.banner-btn .btn {
+  padding: 19px 73px;
+  margin: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #fff;
+  background: #F8A883;
+}
+/* Banner ends here */
+
+/* Monthly box start here */
+.monthly-box .wrapper {
+  border-bottom: 2px solid #fbfb66; 
+  text-align: center;
+  color: #4b4749;
+}
+
+.monthly-box .wrapper h3 {
+  font-size: 37px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.monthly-box .wrapper p {
+  margin: 35px 0;
+  font-size: 21px;  
+}
+
+.monthly-box .wrapper ul li a {
+  color: #4b4749;
+}
+/* Monthly box ends here */
 
 
 
