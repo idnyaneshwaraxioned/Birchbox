@@ -264,7 +264,9 @@ nav {width: 63%;}
 
 .monthly-box .wrapper h3,
 .work .wrapper h3,
-.favourite .wrapper h3 {
+.favourite .wrapper h3,
+.features .wrapper h3,
+.customer .wrapper h3 {
   font-size: 37px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -323,8 +325,37 @@ nav {width: 63%;}
 }
 /* Feature section ends here */
 
+/* Customer section start here */
+.customer .wrapper {
+  padding: 53px 0; 
+  text-align: center;
+  color: #4b4749;
+}
 
+.slider {
+  width: 80%;
+  margin: 50px auto;
+  align-items: center;
+}
 
+.slide { display: none; }
+
+.slide.active {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.slide div {
+  margin: 0 auto;
+  flex-basis: 40%;
+}
+
+.slider-control a .fa{
+  font-size: 35px;
+  color: #d6cfd2;
+}
+/* Customer section ends here */
 /*=================================
   main styling ends here
 =================================*/
@@ -332,8 +363,25 @@ nav {width: 63%;}
 /*=================================
   footer styling starts here
 =================================*/ 
+footer { background-color: #F6EDDC; }
 
+footer .wrapper { color: #4b4749; }
 
+footer .wrapper a { color: #4b4749; }
+.sub-footer .left-content .logo { width: 30%; }
+
+.sub-footer .left-content .logo a {
+  margin-top: 45px;
+  font-size: 33px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.sub-footer .left-content .logo span {
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+}
 
 
 
