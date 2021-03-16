@@ -107,9 +107,7 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-header {
-  background-color: #f6eddc;
-}
+header { background-color: #f6eddc; }
 
 header .wrapper {
   justify-content: space-between;
@@ -117,11 +115,9 @@ header .wrapper {
   padding: 15px 0;
 }
 
-header .wrapper a {
-  color: #4b4749;
-}
+header .wrapper a { color: #4b4749; }
 
-.logo { width: 30%; }
+.logo { width: 18%; }
 
 .logo a {
   font-size: 33px;
@@ -137,7 +133,7 @@ header .wrapper a {
 
 .hamburger { display: none;}
 
-nav {width: 63%;}
+nav {width: 41%;}
 
 .menu li { 
   margin: 0 25px;
@@ -145,9 +141,7 @@ nav {width: 63%;}
   transition: .6s;
 }
 
-.menu li:hover {
-  border-bottom: 1px solid #4b4749;
-}
+.menu a:hover { border-bottom: 1px solid #4b4749; }
 
 .menu li a {
   font-size: 16px;
@@ -163,19 +157,17 @@ nav {width: 63%;}
   left: 0;
 }
 
-.menu li:hover .dropdown{
-  display: block;
-}
+.menu li:hover .dropdown{ display: block; }
 
 .searchbox {
-  width: 38%;
-  background-color: #fff;
+  width: 26%;
   padding: 4px 12px;
-  margin-right: 33px;
   border: 1px solid #e2dfe2;
   border-radius: 71px;
+  margin-right: 18px;
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
 }
 
 .searchbox input {
@@ -234,19 +226,19 @@ nav {width: 63%;}
 }
 
 .banner-btn .btn {
-  padding: 19px 73px;
+  padding: 19px 6.3%;
   margin: 20px;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 600;
-  color: #fff;
-  background: #F8A883;
+  color: #eaeaea;
+  background: #f9b392;
   transition: .6s;
 }
 
 .banner-btn .btn:hover {
-  border: 1px solid #F8A883;
-  color: #F8A883;
+  border: 1px solid #f9b392;
+  color: #f9b392;
   background-color: #fff;
 }
 /* Banner ends here */
@@ -293,9 +285,7 @@ nav {width: 63%;}
 
 .work .wrapper ul { justify-content: space-between; }
 
-.work .wrapper ul li {
-  flex-basis: 30%;
-}
+.work .wrapper ul li { flex-basis: 30%; }
 
 .work .wrapper ul li a figure { margin-bottom: 30px; }
 
@@ -355,6 +345,8 @@ nav {width: 63%;}
   font-size: 35px;
   color: #d6cfd2;
 }
+
+.customer .wrapper .btn { padding: 19px 9.6%; }
 /* Customer section ends here */
 /*=================================
   main styling ends here
@@ -366,18 +358,22 @@ nav {width: 63%;}
 footer { background-color: #F6EDDC; }
 
 footer .wrapper { 
-  padding: 20px 0;
+  padding-top: 20px;
   color: #4b4749; }
 
 footer .wrapper a { color: #4b4749; }
 
-footer .logo {
-  margin: 20px 0;
+footer .logo { margin: 20px 0; }
+
+footer a {
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 110px;
 }
 
 .sub-footer { display: flex; justify-content: space-between;}
 
-.left-content { flex-basis: 45%; }
+.left-content { flex-basis: 55%; }
 
 .left-content ul { flex-basis: 50%; }
 
@@ -386,31 +382,39 @@ footer .logo {
 .left-content ul li a {
   margin: 12px 0;
   font-size: 17px;
+  font-weight: 600;
   color: #4b4749;
 }
 
-.right-content { flex-basis: 45%; }
+.right-content { flex-basis: 40%; }
 
 .right-content h5 {
-  margin-bottom: 15px;
-  font-size: 20px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-form { display: flex;}
+form { 
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .form-control { width: 60%; }
 
 .form-control input {
   width: 100%;
-  padding: 18px 15px;
+  padding: 22px 15px;
   border: none;
   outline: none;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #4b4749;
   background-color: #fff9ee;
 }
+
+.form-control input:focus { border: 1px solid #4b4749; }
 
 form input[type="submit"] {
   padding: 14px 40px;
@@ -421,11 +425,42 @@ form input[type="submit"] {
   font-weight: 600;
   color: #fff;
   background-color: #4b4749;
+  transition: .6s;
 }
 
-.right-content p {
-  background-color: #fbfb66;
+form input[type="submit"]:hover {
+  border: 1px solid #4b4749;
+  color: #4b4749;
+  background-color: #fff;
 }
+.right-content p {margin: 25px 0; }
+
+.right-content span { 
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #fbfb66;
+ }
+
+.app-link h5 { 
+  font-size: 17px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 600;  
+}
+
+.app-link ul li a .fa {
+  font-size: 26px;
+  margin-right: 15px;
+}
+
+.socials {
+  padding: 25px 0;
+  border-top: 1px solid rgb(75, 71, 73,.5);
+  margin-top: 38px;
+  flex-wrap: wrap;
+}
+
+.socials li a .fa { font-size: 25px; }
  /*=================================
   footer styling ends here
 =================================*/ 
@@ -434,6 +469,59 @@ form input[type="submit"] {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+header .wrapper { flex-wrap: wrap; }
 
+.hamburger { display: none;}
+
+nav { 
+  width: 80%;
+  position: absolute;
+  top: 13%;
+  right: 0;
+  z-index: 2;
+  background-color: #F6EDDC;
+}
+
+.menu { 
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.menu li { 
+  margin: 10px 0;
+  text-align: center; 
+}
+
+.menu li .dropdown { 
+  display: none;
+  position: absolute;
+  left: 54%;
+}
+
+.menu li:hover .dropdown{ 
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbox { display: none;}
+
+.month-card { flex-direction: column; }
+
+.work .wrapper ul,
+.favourite .wrapper ul,
+.features .wrapper ul { flex-direction: column; }
+
+
+.favourite .wrapper ul li,
+.features .wrapper ul li { margin: 10px 0; }
+
+.sub-footer { flex-direction: column; }
+
+.left-content,
+.form-control input { margin: 15px 0; }
+
+.socials { flex-direction: column; }
+
+.socials li { margin: 5px 0; }
 
 }  
