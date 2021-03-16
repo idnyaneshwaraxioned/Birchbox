@@ -100,18 +100,97 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 73%; 
   margin: 0 auto;
 }
+.flex { display: flex; }
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  background-color: #f6eddc;
+}
 
+header .wrapper {
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
 
+header .wrapper a {
+  color: #4b4749;
+}
 
+.logo { width: 30%; }
 
+.logo a {
+  font-size: 33px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
 
+.logo span {
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+}
 
+.hamburger { display: none;}
+
+nav {width: 63%;}
+
+.menu li { 
+  margin: 0 25px;
+  position: relative;
+  transition: .6s;
+}
+
+.menu li:hover {
+  border-bottom: 1px solid #4b4749;
+}
+
+.menu li a {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.menu li .dropdown { 
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+.menu li:hover .dropdown{
+  display: block;
+}
+
+.searchbox {
+  width: 38%;
+  background-color: #fff;
+  padding: 4px 12px;
+  margin-right: 33px;
+  border: 1px solid #e2dfe2;
+  border-radius: 71px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchbox input {
+  width: 85%;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.searchbox .fa { font-size: 20px; }
+
+.add-cart .fa { font-size: 25px; }
 /*=================================
   Header styling ends here
 =================================*/  
@@ -119,8 +198,60 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+/* Banner start here */
+.banner { background-color: #F4F9FC; }
 
+.banner .wrapper { 
+  padding: 20px 0;
+  text-align: center;
+  color: #4b4749;
+}
 
+.banner .wrapper h2 {
+  margin: 12px 0; 
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.banner .wrapper p {
+  margin: 0 13%;
+  font-size: 20px;
+}
+
+.banner-btn .btn {
+  padding: 19px 73px;
+  margin: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #fff;
+  background: #F8A883;
+}
+/* Banner ends here */
+
+/* Monthly box start here */
+.monthly-box .wrapper {
+  border-bottom: 2px solid #fbfb66; 
+  text-align: center;
+  color: #4b4749;
+}
+
+.monthly-box .wrapper h3 {
+  font-size: 37px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.monthly-box .wrapper p {
+  margin: 35px 0;
+  font-size: 21px;  
+}
+
+.monthly-box .wrapper ul li a {
+  color: #4b4749;
+}
+/* Monthly box ends here */
 
 
 

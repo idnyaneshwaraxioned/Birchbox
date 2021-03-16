@@ -1,14 +1,14 @@
 <!doctype html>
 
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
- 
+
   <meta charset="utf-8">
 
   <title>Birchbox</title>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
@@ -18,8 +18,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -27,22 +30,381 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+      <div class="wrapper flex">
+        <h1 class="logo">
+          <a href="index.html" title="Birchbox">BIRCHBOX <span></span></a>
+        </h1>
+        <div class="hamburger desktop-none">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li class="menuitem">
+              <a href="#FIXME" title="Shop">SHOP</a><i class="fa fa-angle-down" aria-hidden="true"></i>
+              <ul class="dropdown">
+                <li><a href="#FIXME" title="DROPDOWN">DROPDOWN</a></li>
+                <li><a href="#FIXME" title="DROPDOWN">DROPDOWN</a></li>
+              </ul>
+            </li>
+            <li><a href="#FIXME" title="Box">BOX</a></li>
+            <li><a href="#FIXME" title="Gift">GIFT</a></li>
+            <li><a href="#FIXME" title="Subscribe">SUBSCRIBE</a></li>
+          </ul>
+        </nav>
+        <div class="searchbox">
+          <input type="text" name="search" placeholder="Search Birchbox">
+          <a href="#FIXME"><i class="fa fa-search" aria-hidden="true"></i></a>
+        </div>
+        <span class="add-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+      </div>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
+      <!-- banner start here -->
+      <section class="banner">
+        <figure>
+          <img src="https://dummyimage.com/1837x445/dfeef3/fff" alt="Banner">
+        </figure>
+        <div class="wrapper">
+          <h2>Like beauty? Love Birchbox</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita in vitae, facere harum neque ullam rem
+            hic nesciunt adipisci quasi.</p>
+          <div class="banner-btn">
+            <a href="#FIXME" title="Learn More" class="btn">LEARN MORE</a>
+            <a href="#FIXME" title="Learn More" class="btn">GIFT BIRCHBOX</a>
+          </div>
+        </div>
+      </section>
+      <!-- Banner ends here -->
 
+      <!-- Monthly box section start here-->
+      <section class="monthly-box">
+        <div class="wrapper">
+          <h3>Peek Inside The Monthly Box</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus perspiciatis necessitatibus sed!</p>
+          <ul class="flex">
+            <li>
+              <a href="#FIXME" title="february">
+                <figure>
+                  <img src="https://dummyimage.com/409x175/ee9dc1/fff" alt="february">
+                </figure>
+                <p>February 2018</p>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME" title="february">
+                <figure>
+                  <img src="https://dummyimage.com/409x175/dcd9df/fff" alt="february">
+                </figure>
+                <p>January 2018</p>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME" title="february">
+                <figure>
+                  <img src="https://dummyimage.com/409x175/ae1b28/fff" alt="february">
+                </figure>
+                <p>December 2017</p>
+              </a>
+            </li>
+          </ul>
+          <div class="btn2">
+            <a href="#FIXME" title="Learn more"> LEARN MORE</a>
+          </div>
+        </div>
+      </section>
+      <!-- Monthly box section ends here-->
+
+      <!-- Work section start here -->
+      <section class="work">
+        <div class="wrapper">
+          <h3>Find What Works For You, No Commitment</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus reiciendis iure eaque quasi consequatur
+            enim.</p>
+          <ul class="flex">
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/370x147/efe2cb/fff" alt="Treat">
+                </figure>
+                <h3>Treat</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo amet expedita.</p>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/370x147/bcdce6/fff" alt="Treat">
+                </figure>
+                <h3>Discover</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo amet expedita.</p>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/370x147/bcdce6/fff" alt="Treat">
+                </figure>
+                <h3>Buy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo amet expedita.</p>
+              </a>
+            </li>
+          </ul>
+          <div class="btn2">
+            <a href="#FIXME" title="Learn more"> LEARN MORE</a>
+          </div>
+        </div>
+      </section>
+      <!-- Work section ends here -->
+
+      <!-- Favourite section start here -->
+      <section class="favourite">
+        <div class="wrapper">
+          <h3>Meet Your New Favourite Shop</h3>
+          <ul class="flex">
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/190x313/956cb2/fff" alt="Comb">
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/190x313/956cb2/fff" alt="Brush">
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/190x313/956cb2/fff" alt="Cream">
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/190x313/956cb2/fff" alt="Nail Paint">
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/190x313/956cb2/fff" alt="Spray">
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#FIXME">
+                <figure>
+                  <img src="https://dummyimage.com/190x313/956cb2/fff" alt="Powder">
+                </figure>
+              </a>
+            </li>
+          </ul>
+          <div class="btn2">
+            <a href="#FIXME" title="Learn more"> LEARN MORE</a>
+          </div>
+        </div>
+      </section>
+      <!-- Favourite section ends here -->
+
+      <!-- Feature section start here -->
+      <section class="features">
+        <div class="wrapper">
+          <ul class="flex">
+            <li>
+              <figure>
+                <img src="https://dummyimage.com/252x36/c7c2c8/fff" alt="Cosmopolitian">
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="https://dummyimage.com/252x36/c7c2c8/fff" alt="Cosmopolitian">
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="https://dummyimage.com/252x36/c7c2c8/fff" alt="Cosmopolitian">
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="https://dummyimage.com/252x36/c7c2c8/fff" alt="Cosmopolitian">
+              </figure>
+            </li>
+          </ul>
+          <div class="btn2">
+            <a href="#FIXME" title="Learn more"> LEARN MORE</a>
+          </div>
+        </div>
+      </section>
+      <!-- Feature section ends here -->
+
+      <!-- Customer section start here -->
+      <section class="customer">
+        <div class="wrapper">
+          <h3>What our customers are saying</h3>
+          <ul class="slider flex">
+            <div class="slider-control prev">
+              <a href="#FIXME" title="Prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+            </div>
+            <li class="slide active">
+              <div>
+                <h4>I just love little pretty boxes...</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quo reprehenderit eum soluta!
+                </p>
+                <span>Ewelina Stolarska</span>
+              </div>
+              <div>
+                <h4>I just love little pretty boxes...</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quo reprehenderit eum soluta!
+                </p>
+                <span>Elieen Scott</span>
+              </div>
+            </li>
+            <li class="slide">
+              <div>
+                <h4>I just love little pretty boxes...</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quo reprehenderit eum soluta!
+                </p>
+                <span>Ewelina Stolarska</span>
+              </div>
+              <div>
+                <h4>I just love little pretty boxes...</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quo reprehenderit eum soluta!
+                </p>
+                <span>Elieen Scott</span>
+              </div>
+            </li>
+            <li class="slide">
+              <div>
+                <h4>I just love little pretty boxes...</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quo reprehenderit eum soluta!
+                </p>
+                <span>Ewelina Stolarska</span>
+              </div>
+              <div>
+                <h4>I just love little pretty boxes...</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quo reprehenderit eum soluta!
+                </p>
+                <span>Elieen Scott</span>
+              </div>
+            </li>
+            <div class="slider-control next">
+              <a href="#FIXME" title="Next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div>
+          </ul>
+        </div>
+      </section>
+      <!-- Customer section ends here -->
     </main>
     <!--main section end-->
 
     <!--footer section start-->
-    <footer>      
-
+    <footer>
+      <div class="wrapper">
+        <div class="sub-footer">
+          <div class="left-content">
+            <h1 class="logo">
+              <a href="index.html" title="Birchbox">BIRCHBOX <span></span></a>
+            </h1>
+            <div class="footer-list flex">
+              <ul>
+                <li>
+                  <a href="#FIXME" title="About">About</a>
+                </li>
+                <li>
+                  <a href="#FIXME" title="Help & contact">Help & contact</a>
+                </li>
+                <li>
+                  <a href="#FIXME" title="Press">Press</a>
+                </li>
+                <li>
+                  <a href="#FIXME" title="Brands">Brands</a>
+                </li>
+                <li>
+                  <a href="#FIXME" title="Blogs">Blogs</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#FIXME" title="How it works">How it works</a>
+                </li>
+                <li>
+                  <a href="#FIXME" title="Birchbox Benefite">Birchbox Benefite</a>
+                </li>
+                <li>
+                  <a href="#FIXME" title="Bloggers & Affiliates">Bloggers & Affiliates</a>
+                </li>
+                <li>
+                  <a href="#FIXME" title="Received a gifts?">Received a gifts?</a>
+                </li>
+                <li>
+                  <a href="#FIXME" title="Careers">Careers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="right-content">
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi fuga quae iusto</h5>
+            <form action="#" method="POST">
+              <div class="form-control">
+                <input type="text" name="email" placeholder="ENTER EMAIL">
+              </div>
+              <input type="submit" value="YES PLEASE!">
+            </form>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="app-link">
+              <h5>GET THE APP</h5>
+              <ul>
+                <li>
+                  <a href="#FIXME"><i class="fa fa-apple" aria-hidden="true"></i>App Store</a>
+                </li>
+                <li>
+                  <a href="#FIXME"><i class="fa fa-android" aria-hidden="true"></i>Google Play</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <ul class="socials flex">
+          <li>
+            <a href="#FIXME" title="UK & Ireland">UK & Ireland</a>
+          </li>
+          <li>
+            <a href="#FIXME" title="Privacy & Cookies">UK & Ireland</a>
+          </li>
+          <li>
+            <a href="#FIXME" title="Terms">Terms</a>
+          </li>
+          <li>
+            <a href="#FIXME" title="Copyright">&copy; 2021 Birchbox</a>
+          </li>
+          <li>
+            <a href="#FIXME" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#FIXME" title="facebook"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#FIXME" title="facebook"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#FIXME" title="facebook"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
     </footer>
     <!--footer section end-->
-
   </div>
   <!--container end-->
 </body>
+
 </html>
