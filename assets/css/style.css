@@ -84,7 +84,7 @@ sub { bottom: -.25em; }
 /*for all*/
 body {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 a { 
@@ -198,6 +198,20 @@ nav {width: 63%;}
 /*=================================
   main styling starts here
 =================================*/
+
+.btn2 a {
+  padding: 18px 8%;
+  border: 1px solid #4b4749;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #4b4749;
+  transition: .3s;
+}
+
+.btn2 a:hover {
+  color: #fff;
+  background-color: #4b4749;
+}
 /* Banner start here */
 .banner { background-color: #F4F9FC; }
 
@@ -227,34 +241,87 @@ nav {width: 63%;}
   font-weight: 600;
   color: #fff;
   background: #F8A883;
+  transition: .6s;
+}
+
+.banner-btn .btn:hover {
+  border: 1px solid #F8A883;
+  color: #F8A883;
+  background-color: #fff;
 }
 /* Banner ends here */
 
 /* Monthly box start here */
-.monthly-box .wrapper {
+.monthly-box .wrapper,
+.work .wrapper,
+.favourite .wrapper,
+.features .wrapper {
+  padding: 53px 0;
   border-bottom: 2px solid #fbfb66; 
   text-align: center;
   color: #4b4749;
 }
 
-.monthly-box .wrapper h3 {
+.monthly-box .wrapper h3,
+.work .wrapper h3,
+.favourite .wrapper h3 {
   font-size: 37px;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
 .monthly-box .wrapper p {
-  margin: 35px 0;
+  margin: 35px 0 70px 0;
   font-size: 21px;  
 }
+.month-card li {margin: 0 20px;}
 
-.monthly-box .wrapper ul li a {
+.month-card li h6 {
+  margin: 40px 0;
   color: #4b4749;
 }
 /* Monthly box ends here */
 
+/* Work section start here */
 
+.work .wrapper p {
+  margin: 21px 0 30px 0;
+  font-size: 21px;  
+}
 
+.work .wrapper ul { justify-content: space-between; }
+
+.work .wrapper ul li {
+  flex-basis: 30%;
+}
+
+.work .wrapper ul li a figure { margin-bottom: 30px; }
+
+.work .wrapper ul li span {
+  font-size: 25px;
+  font-weight: 600;
+  color: #4b4749;
+}
+.work .wrapper ul li p {
+  font-size: 17px;
+  color: #4b4749;
+}
+/* Work section ends here */
+
+/* favourite section start here */
+.favourite .wrapper ul {
+  justify-content: space-between;
+  margin: 50px 0;
+}
+ /* favourite section ends here */
+
+/* Feature section start here */
+.features .wrapper ul { 
+  width: 95%;
+  margin: 40px auto;
+  justify-content: space-between; 
+}
+/* Feature section ends here */
 
 
 
