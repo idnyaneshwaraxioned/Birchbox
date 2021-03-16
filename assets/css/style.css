@@ -365,24 +365,33 @@ nav {width: 63%;}
 =================================*/ 
 footer { background-color: #F6EDDC; }
 
-footer .wrapper { color: #4b4749; }
+footer .wrapper { 
+  padding: 20px 0;
+  color: #4b4749; }
 
 footer .wrapper a { color: #4b4749; }
-.sub-footer .left-content .logo { width: 30%; }
 
-.sub-footer .left-content .logo a {
-  margin-top: 45px;
-  font-size: 33px;
-  font-weight: 400;
-  letter-spacing: 3px;
+footer .logo {
+  margin: 20px 0;
 }
 
-.sub-footer .left-content .logo span {
-  width: 30px;
-  height: 30px;
-  background-color: #000000;
+.sub-footer { display: flex; }
+
+.left-content { flex-basis: 50%; }
+
+.left-content ul { flex-basis: 50%; }
+
+.left-content ul li { width: 100%; }
+
+.left-content ul li a {
+  margin: 12px 0;
+  font-size: 17px;
+  color: #4b4749;
 }
 
+.right-content {
+  flex-basis: 50%;
+}
 
 
 
