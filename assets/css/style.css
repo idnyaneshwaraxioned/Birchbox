@@ -375,9 +375,9 @@ footer .logo {
   margin: 20px 0;
 }
 
-.sub-footer { display: flex; }
+.sub-footer { display: flex; justify-content: space-between;}
 
-.left-content { flex-basis: 50%; }
+.left-content { flex-basis: 45%; }
 
 .left-content ul { flex-basis: 50%; }
 
@@ -389,13 +389,43 @@ footer .logo {
   color: #4b4749;
 }
 
-.right-content {
-  flex-basis: 50%;
+.right-content { flex-basis: 45%; }
+
+.right-content h5 {
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
+form { display: flex;}
 
+.form-control { width: 60%; }
 
+.form-control input {
+  width: 100%;
+  padding: 18px 15px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #4b4749;
+  background-color: #fff9ee;
+}
 
+form input[type="submit"] {
+  padding: 14px 40px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #4b4749;
+}
+
+.right-content p {
+  background-color: #fbfb66;
+}
  /*=================================
   footer styling ends here
 =================================*/ 
